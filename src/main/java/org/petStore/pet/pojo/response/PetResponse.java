@@ -10,7 +10,7 @@ import java.util.List;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class GetPetByIdResponse {
+public class PetResponse {
 
     @SerializedName("id")
     private Integer id = null;
